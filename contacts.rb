@@ -19,7 +19,11 @@ end
 
 def remove_strawberry(contacts)
   # your code here!
+  contacts["Freddie Mercury"][:favorite_ice_cream_flavors].delete("strawberry")
+  contacts
 end
+require 'pp'
 
-# print the output to the terminal for inspection
 pp remove_strawberry(contacts)
+
+
